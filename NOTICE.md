@@ -111,41 +111,13 @@ They are:
                   ITK and their functionality was not needed.
                   These removed the "itknetlib" library.
 
+                  TODO: Still shows up at: Modules/ThirdParty/VNL/src/vxl/v3p/netlib/triangle.c
 
- 8) itk_hash_map:  It has copyrights by SGI and HP, but the license
-                  is consistent with BSD-like. So we simply need
-                  to acknowledge those in our general copyright.
 
  9) itkMersenneTwisterRandomVariateGenerator:
                 Copyright: Makoto Matsumoto and Takuji Nishimura,
                 Copyright: Richard J. Wagner
                 under a BSD-Like license.
-
- 10) Code/Numerics/FEM/dsrc2c.c :
-
-                Copyright: 1977 IMSL Inc, no license available.
-                Stephen Aylward removed the specific functions
-                in this file that were copyrighted by IMSL and
-                replaced them with other functions available in
-                netlib. The file is now cleared from copyright
-                concerns.
-
-
- 11) Code/Numerics/cvsrmvend
-
-                Copyright:  Greg A. Woods
-                "Freely distributable"
-                I guess that counts as BSD...
-                Easy to remove if it becomes a problem,
-                This is just a script for making easier
-                the CVS syncs of VXL.
-
-  12) Testing/Code/Numerics/NeuralNetworks:
-
-                Copyright: CADDLab at UNC
-                Fixed now in CVS --> ISC
-
-
 
 Utilities:
 
@@ -233,6 +205,7 @@ Portions of the Insight code base are derived from the Visualization Toolkit
 (VTK), and hence are covered under the VTK copyright. The VTK copyright is as
 follows:
 
+```
 Copyright (c) 1993-2002 Ken Martin, Will Schroeder, Bill Lorensen
 All rights reserved.
 
@@ -265,7 +238,7 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 See also the VTK web site: http://www.vtk.org for more information.
-
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
@@ -277,7 +250,7 @@ Portions of the Insight code base (the numerics package VNL) are derived from
 the Vision-something-Libraries (VXL), and hence are covered under the VXL
 copyright. The VXL copyright is as follows:
 
-
+```
                 Copyright (c) 2000 TargetJr Consortium
             GE Corporate Research and Development (GE CRD)
                           1 Research Circle
@@ -304,14 +277,16 @@ copyright. The VXL copyright is as follows:
    WHETHER OR NOT ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, OR ON
    ANY THEORY OF LIABILITY ARISING OUT OF OR IN CONNECTION WITH THE
    USE OR PERFORMANCE OF THIS SOFTWARE.
-
+```
 
 See also the VXL web site: http://vxl.sourceforge.net/ for more information.
 
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
+The `nifti1.h` file which is part of `Modules/ThirdParty/MINC/` and `Modules/ThirdParty/NIFTI` are covered by:
 
+```
  Copyright (c)
  Biomedical Imaging Resource
  Mayo Clinic
@@ -344,11 +319,13 @@ See also the VXL web site: http://vxl.sourceforge.net/ for more information.
  ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
  TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
  USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
-28 files covered by:
+Parts of `Modules/ThirdParty/KWSys` and `Modules/ThirdParty/TIFF` are covered by:
 
+```
 Copyright (c)
   Silicon Graphics Computer Systems, Inc.
 
@@ -359,11 +336,13 @@ Copyright (c)
   in supporting documentation.  Silicon Graphics makes no
   representations about the suitability of this software for any
   purpose.  It is provided "as is" without express or implied warranty.
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
-29 files covered by:
+Parts of `Modules/ThirdParty/KWSys` are covered by:
 
+```
 Copyright (c)
   Hewlett-Packard Company
 
@@ -374,41 +353,13 @@ Copyright (c)
   in supporting documentation.  Hewlett-Packard Company makes no
   representations about the suitability of this software for any
   purpose.  It is provided "as is" without express or implied warranty.
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
-9 files covered by:
+`Modules/Core/Common/include/itkMersenneTwisterRandomVariateGenerator.h` is covered by:
 
-Copyright (c)
-  Mark of the Unicorn, Inc.
-
-  Permission to use, copy, modify, distribute and sell this software
-  and its documentation for any purpose is hereby granted without fee,
-  provided that the above copyright notice appear in all copies and
-  that both that copyright notice and this permission notice appear
-  in supporting documentation.  Mark of the Unicorn makes no
-  representations about the suitability of this software for any
-  purpose.  It is provided "as is" without express or implied warranty.
-
-============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
-
-38 files covered by:
-
-Copyright (c)
-  Moscow Center for SPARC Technology
-
-  Permission to use, copy, modify, distribute and sell this software
-  and its documentation for any purpose is hereby granted without fee,
-  provided that the above copyright notice appear in all copies and
-  that both that copyright notice and this permission notice appear
-  in supporting documentation.  Moscow Center for SPARC Technology makes no
-  representations about the suitability of this software for any
-  purpose.  It is provided "as is" without express or implied warranty.
-
-============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
-
-1 file covered by:
-
+```
 Copyright (C) Makoto Matsumoto and Takuji Nishimura,
   Copyright (C) Richard J. Wagner
   All rights reserved.
@@ -439,55 +390,24 @@ Copyright (C) Makoto Matsumoto and Takuji Nishimura,
   LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
   NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+```
 
   The original code included the following notice:
 
+```
       When you use this, send an email to: matumoto at math dot keio dot ac dot jp
       with an appropriate reference to your work.
 
   It would be nice to CC:
   rjwagner at writeme dot com and Cokus at math dot washington dot edu
   when you write.
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
-1 file covered by:
+`Modules/ThirdParty/VNL/src/vxl/v3p/netlib/libf2c/arithchk.c` covered by:
 
-(c) Copyright by Greg A. Woods <woods@planix.com>
-
-  Freely redistibutable.
-  All other rights reserved.
-  Return all fixes/modifications to <woods@planix.com>.
-
-============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
-
-1 file covered by:
-
-Copyright by AT&T, Lucent Technologies and Bellcore.
-
-Permission to use, copy, modify, and distribute this software
-and its documentation for any purpose and without fee is hereby
-granted, provided that the above copyright notice appear in all
-copies and that both that the copyright notice and this
-permission notice and warranty disclaimer appear in supporting
-documentation, and that the names of AT&T, Bell Laboratories,
-Lucent or Bellcore or any of their entities not be used in
-advertising or publicity pertaining to distribution of the
-software without specific, written prior permission.
-
-AT&T, Lucent and Bellcore disclaim all warranties with regard to
-this software, including all implied warranties of
-merchantability and fitness.  In no event shall AT&T, Lucent or
-Bellcore be liable for any special, indirect or consequential
-damages or any damages whatsoever resulting from loss of use,
-data or profits, whether in an action of contract, negligence or
-other tortious action, arising out of or in connection with the
-use or performance of this software.
-
-============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
-
-1 file covered by:
-
+```
 Copyright (C) Lucent Technologies
 All Rights Reserved
 
@@ -509,119 +429,96 @@ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER
 IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
 ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
 THIS SOFTWARE.
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
-1 file covered by:
+The following files:
 
-Copyright (c) TargetJr Consortium
-               GE Corporate Research and Development (GE CRD)
-                             1 Research Circle
-                            Niskayuna, NY 12309
-                            All Rights Reserved
-              Reproduction rights limited as described below.
+```
+Modules/ThirdParty/VNL/src/vxl/core/vnl/vnl_quaternion.hxx
+```
 
-      Permission to use, copy, modify, distribute, and sell this software
-      and its documentation for any purpose is hereby granted without fee,
-      provided that (i) the above copyright notice and this permission
-      notice appear in all copies of the software and related documentation,
-      (ii) the name TargetJr Consortium (represented by GE CRD), may not be
-      used in any advertising or publicity relating to the software without
-      the specific, prior written permission of GE CRD, and (iii) any
-      modifications are clearly marked and summarized in a change history
-      log.
+are covered by:
 
-      THE SOFTWARE IS PROVIDED "AS IS" AND WITHOUT WARRANTY OF ANY KIND,
-      EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY
-      WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
-      IN NO EVENT SHALL THE TARGETJR CONSORTIUM BE LIABLE FOR ANY SPECIAL,
-      INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND OR ANY
-      DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
-      WHETHER OR NOT ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, OR ON
-      ANY THEORY OF LIABILITY ARISING OUT OF OR IN CONNECTION WITH THE
-      USE OR PERFORMANCE OF THIS SOFTWARE.
-
-
-============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
-
-
-1 file covered by:
-
+```
 Copyright (C) General Electric Company.
 
- Permission is granted to any individual or institution to use, copy, modify,
- and distribute this software, provided that this complete copyright and
- permission notice is maintained, intact, in all copies and supporting
- documentation.
+Permission is granted to any individual or institution to use, copy, modify,
+and distribute this software, provided that this complete copyright and
+permission notice is maintained, intact, in all copies and supporting
+documentation.
 
- General Electric Company,
- provides this software "as is" without express or implied warranty.
-
-
-============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
-
-
-5 files covered by:
-
-Copyright (C) Texas Instruments Incorporated.
-
- Permission is granted to any individual or institution to use, copy, modify,
- and distribute this software, provided that this complete copyright and
- permission notice is maintained, intact, in all copies and supporting
- documentation.
-
- Texas Instruments Incorporated provides this software "as is" without
- express or implied warranty.
-
+General Electric Company,
+provides this software "as is" without express or implied warranty.
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
 
-2 files covered by:
+The following files:
 
+```
+Modules/ThirdParty/KWSys/src/KWSys/RegularExpression.cxx
+Modules/ThirdParty/KWSys/src/KWSys/RegularExpression.hxx.in
+Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_test.cxx
+Modules/ThirdParty/VNL/src/vxl/core/vnl/vnl_bignum.h
+Modules/ThirdParty/VNL/src/vxl/core/vnl/vnl_rational.h
+```
+
+are covered by:
+
+```
 Copyright (C) Texas Instruments Incorporated.
- Copyright (C) General Electric Company.
 
- Permission is granted to any individual or institution to use, copy, modify,
- and distribute this software, provided that this complete copyright and
- permission notice is maintained, intact, in all copies and supporting
- documentation.
+Permission is granted to any individual or institution to use, copy, modify,
+and distribute this software, provided that this complete copyright and
+permission notice is maintained, intact, in all copies and supporting
+documentation.
 
+Texas Instruments Incorporated provides this software "as is" without
+express or implied warranty.
+```
+
+============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
+
+The following files:
+
+```
+Modules/ThirdParty/VNL/src/vxl/core/vnl/vnl_error.cxx
+Modules/ThirdParty/VNL/src/vxl/core/vnl/vnl_matrix.hxx
+```
+
+are covered by:
+
+```
+Copyright (C) Texas Instruments Incorporated.
+Copyright (C) General Electric Company.
+
+Permission is granted to any individual or institution to use, copy, modify,
+and distribute this software, provided that this complete copyright and
+permission notice is maintained, intact, in all copies and supporting
+documentation.
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
 
 1 file covered by:
 
+```
 Copyright (C) Free Software Foundation, Inc.
 
- This configure script is free software; the Free Software Foundation
- gives unlimited permission to copy, distribute and modify it.
-
-
-============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
-
-
-1 file covered by:
-
-Copyright by the Massachusetts Institute of Technology
-
- Permission to use, copy, modify, distribute, and sell this software and its
- documentation for any purpose is hereby granted without fee, provided that
- the above copyright notice appear in all copies and that both that
- copyright notice and this permission notice appear in supporting
- documentation, and that the name of M.I.T. not be used in advertising or
- publicity pertaining to distribution of the software without specific,
- written prior permission.  M.I.T. makes no representations about the
- suitability of this software for any purpose.  It is provided "as is"
- without express or implied warranty.
-
+This configure script is free software; the Free Software Foundation
+gives unlimited permission to copy, distribute and modify it.
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
 
 98 files covered by:
 
+```
 Copyright (c) 1999-2005 CREATIS
 (CREATIS = Centre de Recherche et d'Applications en Traitement de l'Image)
 All rights reserved.
@@ -653,13 +550,14 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
 
 13 files covered by:
 
+```
 Copyright (c) 1998, 1999, 2000 Thai Open Source Software Center Ltd
                                and Clark Cooper
 
@@ -681,71 +579,74 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
 
 54 files covered by:
 
+```
 Copyright (C) Gordon Kindlmann
-  Copyright (C) University of Utah
+Copyright (C) University of Utah
 
-  This software is provided 'as-is', without any express or implied
-  warranty.  In no event will the authors be held liable for any
-  damages arising from the use of this software.
+This software is provided 'as-is', without any express or implied
+warranty.  In no event will the authors be held liable for any
+damages arising from the use of this software.
 
-  Permission is granted to anyone to use this software for any
-  purpose, including commercial applications, and to alter it and
-  redistribute it freely, subject to the following restrictions:
+Permission is granted to anyone to use this software for any
+purpose, including commercial applications, and to alter it and
+redistribute it freely, subject to the following restrictions:
 
-  1. The origin of this software must not be misrepresented; you must
-     not claim that you wrote the original software. If you use this
-     software in a product, an acknowledgment in the product
-     documentation would be appreciated but is not required.
+1. The origin of this software must not be misrepresented; you must
+   not claim that you wrote the original software. If you use this
+   software in a product, an acknowledgment in the product
+   documentation would be appreciated but is not required.
 
-  2. Altered source versions must be plainly marked as such, and must
-     not be misrepresented as being the original software.
+2. Altered source versions must be plainly marked as such, and must
+   not be misrepresented as being the original software.
 
-  3. This notice may not be removed or altered from any source distribution.
-
+3. This notice may not be removed or altered from any source distribution.
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
 
-2 files covered by:
+`Modules/IO/GE/src/Ge4xHdr.h` and `Modules/IO/GE/src/Ge5xHdr.h` covered by:
 
+```
 Copyright (c) David A. Clunie DBA PixelMed Publishing. All rights reserved.
 
- Redistribution and use in source and binary forms, with or without modification, are
- permitted provided that the following conditions are met:
+Redistribution and use in source and binary forms, with or without modification, are
+permitted provided that the following conditions are met:
 
- 1. Redistributions of source code must retain the above copyright notice, this list of
-    conditions and the following disclaimers.
+1. Redistributions of source code must retain the above copyright notice, this list of
+   conditions and the following disclaimers.
 
- 2. Redistributions in binary form must reproduce the above copyright notice, this list of
-    conditions and the following disclaimers in the documentation and/or other materials
-    provided with the distribution.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of
+   conditions and the following disclaimers in the documentation and/or other materials
+   provided with the distribution.
 
- 3. Neither the name of PixelMed Publishing nor the names of its contributors may
-    be used to endorse or promote products derived from this software.
+3. Neither the name of PixelMed Publishing nor the names of its contributors may
+   be used to endorse or promote products derived from this software.
 
- This software is provided by the copyright holders and contributors "as is" and any
- express or implied warranties, including, but not limited to, the implied warranties
- of merchantability and fitness for a particular purpose are disclaimed. In no event
- shall the copyright owner or contributors be liable for any direct, indirect, incidental,
- special, exemplary, or consequential damages (including, but not limited to, procurement
- of substitute goods or services; loss of use, data or profits; or business interruption)
- however caused and on any theory of liability, whether in contract, strict liability, or
- tort (including negligence or otherwise) arising in any way out of the use of this software,
- even if advised of the possibility of such damage.
-
+This software is provided by the copyright holders and contributors "as is" and any
+express or implied warranties, including, but not limited to, the implied warranties
+of merchantability and fitness for a particular purpose are disclaimed. In no event
+shall the copyright owner or contributors be liable for any direct, indirect, incidental,
+special, exemplary, or consequential damages (including, but not limited to, procurement
+of substitute goods or services; loss of use, data or profits; or business interruption)
+however caused and on any theory of liability, whether in contract, strict liability, or
+tort (including negligence or otherwise) arising in any way out of the use of this software,
+even if advised of the possibility of such damage.
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
 
-14 files covered by:
+Portions of `Modules/ThirdParty/DICOMParser` covered by:
 
+```
 Copyright (c) 2003 Matt Turek
 All rights reserved.
 
@@ -776,286 +677,233 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-
-============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
-
-
-20 files covered by:
-
- * libpng versions 1.0.7, July 1, 2000, through  1.0.12, June 8, 2001, are
- * Copyright (c) 2000, 2001 Glenn Randers-Pehrson, and are
- * distributed according to the same disclaimer and license as libpng-1.0.6
- * with the following individuals added to the list of Contributing Authors
- *
- *    Simon-Pierre Cadieux
- *    Eric S. Raymond
- *    Gilles Vollant
- *
- * and with the following additions to the disclaimer:
- *
- *    There is no warranty against interference with your enjoyment of the
- *    library or against infringement.  There is no warranty that our
- *    efforts or the library will fulfill any of your particular purposes
- *    or needs.  This library is provided with all faults, and the entire
- *    risk of satisfactory quality, performance, accuracy, and effort is with
- *    the user.
- *
- * libpng versions 0.97, January 1998, through 1.0.6, March 20, 2000, are
- * Copyright (c) 1998, 1999, 2000 Glenn Randers-Pehrson
- * Distributed according to the same disclaimer and license as libpng-0.96,
- * with the following individuals added to the list of Contributing Authors:
- *
- *    Tom Lane
- *    Glenn Randers-Pehrson
- *    Willem van Schaik
- *
- * libpng versions 0.89, June 1996, through 0.96, May 1997, are
- * Copyright (c) 1996, 1997 Andreas Dilger
- * Distributed according to the same disclaimer and license as libpng-0.88,
- * with the following individuals added to the list of Contributing Authors:
- *
- *    John Bowler
- *    Kevin Bracey
- *    Sam Bushell
- *    Magnus Holmgren
- *    Greg Roelofs
- *    Tom Tanner
- *
- * libpng versions 0.5, May 1995, through 0.88, January 1996, are
- * Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
- *
- * For the purposes of this copyright and license, "Contributing Authors"
- * is defined as the following set of individuals:
- *
- *    Andreas Dilger
- *    Dave Martindale
- *    Guy Eric Schalnat
- *    Paul Schmidt
- *    Tim Wegner
- *
- * The PNG Reference Library is supplied "AS IS".  The Contributing Authors
- * and Group 42, Inc. disclaim all warranties, expressed or implied,
- * including, without limitation, the warranties of merchantability and of
- * fitness for any purpose.  The Contributing Authors and Group 42, Inc.
- * assume no liability for direct, indirect, incidental, special, exemplary,
- * or consequential damages, which may result from the use of the PNG
- * Reference Library, even if advised of the possibility of such damage.
- *
- * Permission is hereby granted to use, copy, modify, and distribute this
- * source code, or portions hereof, for any purpose, without fee, subject
- * to the following restrictions:
- *
- * 1. The origin of this source code must not be misrepresented.
- *
- * 2. Altered versions must be plainly marked as such and
- * must not be misrepresented as being the original source.
- *
- * 3. This Copyright notice may not be removed or altered from
- *    any source or altered source distribution.
- *
- * The Contributing Authors and Group 42, Inc. specifically permit, without
- * fee, and encourage the use of this source code as a component to
- * supporting the PNG file format in commercial products.  If you use this
- * source code in a product, acknowledgment is not required but would be
- * appreciated.
-
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
 
-1 file covered by:
+`libpng` files covered by:
 
-(c) Copyright
-         Biomedical Imaging Resource
-         Mayo Foundation
-   Incorporation of components of dbh.h are by permission of the
-   Mayo Foundation.
+```
+libpng versions 1.2.6, August 15, 2004, through 1.6.9, February 6, 2014, are
+Copyright (c) 2004, 2006-2014 Glenn Randers-Pehrson, and are
+distributed according to the same disclaimer and license as libpng-1.2.5
+with the following individual added to the list of Contributing Authors
 
+   Cosmin Truta
+
+libpng versions 1.0.7, July 1, 2000, through 1.2.5 - October 3, 2002, are
+Copyright (c) 2000-2002 Glenn Randers-Pehrson, and are
+distributed according to the same disclaimer and license as libpng-1.0.6
+with the following individuals added to the list of Contributing Authors
+
+   Simon-Pierre Cadieux
+   Eric S. Raymond
+   Gilles Vollant
+
+and with the following additions to the disclaimer:
+
+   There is no warranty against interference with your enjoyment of the
+   library or against infringement.  There is no warranty that our
+   efforts or the library will fulfill any of your particular purposes
+   or needs.  This library is provided with all faults, and the entire
+   risk of satisfactory quality, performance, accuracy, and effort is with
+   the user.
+
+libpng versions 0.97, January 1998, through 1.0.6, March 20, 2000, are
+Copyright (c) 1998, 1999 Glenn Randers-Pehrson, and are
+distributed according to the same disclaimer and license as libpng-0.96,
+with the following individuals added to the list of Contributing Authors:
+
+   Tom Lane
+   Glenn Randers-Pehrson
+   Willem van Schaik
+
+libpng versions 0.89, June 1996, through 0.96, May 1997, are
+Copyright (c) 1996, 1997 Andreas Dilger
+Distributed according to the same disclaimer and license as libpng-0.88,
+with the following individuals added to the list of Contributing Authors:
+
+   John Bowler
+   Kevin Bracey
+   Sam Bushell
+   Magnus Holmgren
+   Greg Roelofs
+   Tom Tanner
+
+libpng versions 0.5, May 1995, through 0.88, January 1996, are
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+
+For the purposes of this copyright and license, "Contributing Authors"
+is defined as the following set of individuals:
+
+   Andreas Dilger
+   Dave Martindale
+   Guy Eric Schalnat
+   Paul Schmidt
+   Tim Wegner
+
+The PNG Reference Library is supplied "AS IS".  The Contributing Authors
+and Group 42, Inc. disclaim all warranties, expressed or implied,
+including, without limitation, the warranties of merchantability and of
+fitness for any purpose.  The Contributing Authors and Group 42, Inc.
+assume no liability for direct, indirect, incidental, special, exemplary,
+or consequential damages, which may result from the use of the PNG
+Reference Library, even if advised of the possibility of such damage.
+
+Permission is hereby granted to use, copy, modify, and distribute this
+source code, or portions hereof, for any purpose, without fee, subject
+to the following restrictions:
+
+1. The origin of this source code must not be misrepresented.
+
+2. Altered versions must be plainly marked as such and must not
+   be misrepresented as being the original source.
+
+3. This Copyright notice may not be removed or altered from any
+   source or altered source distribution.
+
+The Contributing Authors and Group 42, Inc. specifically permit, without
+fee, and encourage the use of this source code as a component to
+supporting the PNG file format in commercial products.  If you use this
+source code in a product, acknowledgment is not required but would be
+appreciated.
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
 
-2 files covered by:
+ZLIB and portions of ITK covered by:
 
+```
 Copyright (C) Jean-loup Gailly and Mark Adler
 
-  This software is provided 'as-is', without any express or implied
-  warranty.  In no event will the authors be held liable for any damages
-  arising from the use of this software.
+This software is provided 'as-is', without any express or implied
+warranty.  In no event will the authors be held liable for any damages
+arising from the use of this software.
 
-  Permission is granted to anyone to use this software for any purpose,
-  including commercial applications, and to alter it and redistribute it
-  freely, subject to the following restrictions:
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
 
-  1. The origin of this software must not be misrepresented; you must not
-     claim that you wrote the original software. If you use this software
-     in a product, an acknowledgment in the product documentation would be
-     appreciated but is not required.
-  2. Altered source versions must be plainly marked as such, and must not be
-     misrepresented as being the original software.
-  3. This notice may not be removed or altered from any source distribution.
+1. The origin of this software must not be misrepresented; you must not
+   claim that you wrote the original software. If you use this software
+   in a product, an acknowledgment in the product documentation would be
+   appreciated but is not required.
+2. Altered source versions must be plainly marked as such, and must not be
+   misrepresented as being the original software.
+3. This notice may not be removed or altered from any source distribution.
 
-  Jean-loup Gailly        Mark Adler
-  jloup@gzip.org          madler@alumni.caltech.edu
-
+Jean-loup Gailly        Mark Adler
+jloup@gzip.org          madler@alumni.caltech.edu
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
 
 1 file covered by:
 
+```
 Copyright (c) by University of Toronto.
-      Written by Henry Spencer.  Not derived from licensed software.
+Written by Henry Spencer.  Not derived from licensed software.
 
-      Permission is granted to anyone to use this software for any
-      purpose on any computer system, and to redistribute it freely,
-      subject to the following restrictions:
+Permission is granted to anyone to use this software for any
+purpose on any computer system, and to redistribute it freely,
+subject to the following restrictions:
 
-      1. The author is not responsible for the consequences of use of
-              this software, no matter how awful, even if they arise
-              from defects in it.
+1. The author is not responsible for the consequences of use of
+   this software, no matter how awful, even if they arise
+   from defects in it.
 
-      2. The origin of this software must not be misrepresented, either
-              by explicit claim or by omission.
+2. The origin of this software must not be misrepresented, either
+   by explicit claim or by omission.
 
-      3. Altered versions must be plainly marked as such, and must not
-              be misrepresented as being the original software.
-
+3. Altered versions must be plainly marked as such, and must not
+   be misrepresented as being the original software.
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
 
 25 files covered by:
 
+```
 Copyright (c) David Janssens
- Copyright (c) Yannick Verschueren
- Copyright (c) Francois Devaux and Antonin Descampe
- Copyright (c) Hervé Drolon, FreeImage Team
- Copyright (c) Communications and remote sensing Laboratory, Universite catholique de Louvain, Belgium
- All rights reserved.
-
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
- 1. Redistributions of source code must retain the above copyright
-    notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
-
- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS `AS IS'
- AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
- IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
- ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
- LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
- CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
- SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
- INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
- CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
- ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
- POSSIBILITY OF SUCH DAMAGE.
-
-
-============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
-
-
-4 files covered by:
-
 Copyright (c) Yannick Verschueren
- Copyright (c) Hervé Drolon, FreeImage Team
- Copyright (c) Communications and remote sensing Laboratory, Universite catholique de Louvain, Belgium
- All rights reserved.
-
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
- 1. Redistributions of source code must retain the above copyright
-    notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
-
- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS `AS IS'
- AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
- IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
- ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
- LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
- CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
- SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
- INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
- CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
- ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
- POSSIBILITY OF SUCH DAMAGE.
-
-
-============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
-
-
-8 files covered by:
-
-Copyright (c) Hervé Drolon, FreeImage Team
- All rights reserved.
-
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
- 1. Redistributions of source code must retain the above copyright
-    notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
-
- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS `AS IS'
- AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
- IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
- ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
- LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
- CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
- SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
- INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
- CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
- ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
- POSSIBILITY OF SUCH DAMAGE.
-
-
-============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
-
-
-2 files covered by:
-
 Copyright (c) Francois Devaux and Antonin Descampe
- Copyright (c) Hervé Drolon, FreeImage Team
- Copyright (c) Communications and remote sensing Laboratory, Universite catholique de Louvain, Belgium
- All rights reserved.
+Copyright (c) Hervé Drolon, FreeImage Team
+Copyright (c) Communications and remote sensing Laboratory, Universite catholique de Louvain, Belgium
+All rights reserved.
 
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
- 1. Redistributions of source code must retain the above copyright
-    notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
 
- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS `AS IS'
- AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
- IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
- ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
- LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
- CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
- SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
- INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
- CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
- ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
- POSSIBILITY OF SUCH DAMAGE.
-
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS `AS IS'
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
 
-78 files covered by:
+OpenJPEG:
 
+```
+Copyright (c) 2002-2012, Communications and Remote Sensing Laboratory,
+Universite catholique de Louvain (UCL), Belgium
+Copyright (c) 2002-2012, Professor Benoit Macq
+Copyright (c) 2003-2012, Antonin Descampe
+Copyright (c) 2003-2009, Francois-Olivier Devaux
+Copyright (c) 2005, Herve Drolon, FreeImage Team
+Copyright (c) 2002-2003, Yannick Verschueren
+Copyright (c) 2001-2003, David Janssens
+Copyright (c) 2011-2012, Centre National d'Etudes Spatiales (CNES), France
+Copyright (c) 2012, CS Systemes d'Information, France
+
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS `AS IS'
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+```
+
+============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
+
+
+JPEG library covered by:
+
+```
 This software is copyright (C) 1991-1998, Thomas G. Lane.
 All Rights Reserved except as specified below.
 
@@ -1085,132 +933,138 @@ software".
 We specifically permit and encourage the use of this software as the basis of
 commercial products, provided that all warranty or liability claims are
 assumed by the product vendor.
-
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
 
-54 files covered by:
+`TIFF` library covered by:
 
+```
 Copyright (c) Sam Leffler
- Copyright (c) Silicon Graphics, Inc.
+Copyright (c) Silicon Graphics, Inc.
 
- Permission to use, copy, modify, distribute, and sell this software and
- its documentation for any purpose is hereby granted without fee, provided
- that (i) the above copyright notices and this permission notice appear in
- all copies of the software and related documentation, and (ii) the names of
- Sam Leffler and Silicon Graphics may not be used in any advertising or
- publicity relating to the software without the specific, prior written
- permission of Sam Leffler and Silicon Graphics.
+Permission to use, copy, modify, distribute, and sell this software and
+its documentation for any purpose is hereby granted without fee, provided
+that (i) the above copyright notices and this permission notice appear in
+all copies of the software and related documentation, and (ii) the names of
+Sam Leffler and Silicon Graphics may not be used in any advertising or
+publicity relating to the software without the specific, prior written
+permission of Sam Leffler and Silicon Graphics.
 
- THE SOFTWARE IS PROVIDED "AS-IS" AND WITHOUT WARRANTY OF ANY KIND,
- EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY
- WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+THE SOFTWARE IS PROVIDED "AS-IS" AND WITHOUT WARRANTY OF ANY KIND,
+EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY
+WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 
- IN NO EVENT SHALL SAM LEFFLER OR SILICON GRAPHICS BE LIABLE FOR
- ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND,
- OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
- WHETHER OR NOT ADVISED OF THE POSSIBILITY OF DAMAGE, AND ON ANY THEORY OF
- LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE
- OF THIS SOFTWARE.
-
+IN NO EVENT SHALL SAM LEFFLER OR SILICON GRAPHICS BE LIABLE FOR
+ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND,
+OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+WHETHER OR NOT ADVISED OF THE POSSIBILITY OF DAMAGE, AND ON ANY THEORY OF
+LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE
+OF THIS SOFTWARE.
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
 
-1 file covered by:
+Portions of the `TIFF` library covered by:
 
+```
 Copyright (c) Greg Ward Larson
- Copyright (c) Silicon Graphics, Inc.
+Copyright (c) Silicon Graphics, Inc.
 
- Permission to use, copy, modify, distribute, and sell this software and
- its documentation for any purpose is hereby granted without fee, provided
- that (i) the above copyright notices and this permission notice appear in
- all copies of the software and related documentation, and (ii) the names of
- Sam Leffler, Greg Larson and Silicon Graphics may not be used in any
- advertising or publicity relating to the software without the specific,
- prior written permission of Sam Leffler, Greg Larson and Silicon Graphics.
+Permission to use, copy, modify, distribute, and sell this software and
+its documentation for any purpose is hereby granted without fee, provided
+that (i) the above copyright notices and this permission notice appear in
+all copies of the software and related documentation, and (ii) the names of
+Sam Leffler, Greg Larson and Silicon Graphics may not be used in any
+advertising or publicity relating to the software without the specific,
+prior written permission of Sam Leffler, Greg Larson and Silicon Graphics.
 
- THE SOFTWARE IS PROVIDED "AS-IS" AND WITHOUT WARRANTY OF ANY KIND,
- EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY
- WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+THE SOFTWARE IS PROVIDED "AS-IS" AND WITHOUT WARRANTY OF ANY KIND,
+EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY
+WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 
- IN NO EVENT SHALL SAM LEFFLER, GREG LARSON OR SILICON GRAPHICS BE LIABLE
- FOR ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND,
- OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
- WHETHER OR NOT ADVISED OF THE POSSIBILITY OF DAMAGE, AND ON ANY THEORY OF
- LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE
- OF THIS SOFTWARE.
-
+IN NO EVENT SHALL SAM LEFFLER, GREG LARSON OR SILICON GRAPHICS BE LIABLE
+FOR ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND,
+OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+WHETHER OR NOT ADVISED OF THE POSSIBILITY OF DAMAGE, AND ON ANY THEORY OF
+LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE
+OF THIS SOFTWARE.
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
 
-1 file covered by:
+Portions of the `TIFF` library:
 
+```
 Copyright (c) The Regents of the University of California.
- All rights reserved.
+All rights reserved.
 
- This code is derived from software contributed to Berkeley by
- James A. Woods, derived from original work by Spencer Thomas
- and Joseph Orost.
+This code is derived from software contributed to Berkeley by
+James A. Woods, derived from original work by Spencer Thomas
+and Joseph Orost.
 
- Redistribution and use in source and binary forms are permitted
- provided that the above copyright notice and this paragraph are
- duplicated in all such forms and that any documentation,
- advertising materials, and other materials related to such
- distribution and use acknowledge that the software was developed
- by the University of California, Berkeley.  The name of the
- University may not be used to endorse or promote products derived
- from this software without specific prior written permission.
- THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
- IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
- WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
-
+Redistribution and use in source and binary forms are permitted
+provided that the above copyright notice and this paragraph are
+duplicated in all such forms and that any documentation,
+advertising materials, and other materials related to such
+distribution and use acknowledge that the software was developed
+by the University of California, Berkeley.  The name of the
+University may not be used to endorse or promote products derived
+from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
 
-3 files covered by:
+Portions of the `TIFF` library:
 
+```
 Decoder support is derived, with permission, from the code
  in Frank Cringle's viewfax program;
       Copyright (C) Frank D. Cringle.
-
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
 
-1 file covered by:
+Portions of the `TIFF` library:
 
-Copyright (c) Sam Leffler
- Copyright (c) Pixar
+```
+Copyright (c) 1996-1997 Sam Leffler
+Copyright (c) 1996 Pixar
 
- Permission to use, copy, modify, distribute, and sell this software and
- its documentation for any purpose is hereby granted without fee, provided
- that (i) the above copyright notices and this permission notice appear in
- all copies of the software and related documentation, and (ii) the names of
- Pixar, Sam Leffler and Silicon Graphics may not be used in any advertising or
- publicity relating to the software without the specific, prior written
- permission of Pixar, Sam Leffler and Silicon Graphics.
+Permission to use, copy, modify, distribute, and sell this software and
+its documentation for any purpose is hereby granted without fee, provided
+that (i) the above copyright notices and this permission notice appear in
+all copies of the software and related documentation, and (ii) the names of
+Pixar, Sam Leffler and Silicon Graphics may not be used in any advertising or
+publicity relating to the software without the specific, prior written
+permission of Pixar, Sam Leffler and Silicon Graphics.
 
- THE SOFTWARE IS PROVIDED "AS-IS" AND WITHOUT WARRANTY OF ANY KIND,
- EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY
- WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+THE SOFTWARE IS PROVIDED "AS-IS" AND WITHOUT WARRANTY OF ANY KIND,
+EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY
+WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 
- IN NO EVENT SHALL PIXAR, SAM LEFFLER OR SILICON GRAPHICS BE LIABLE FOR
- ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND,
- OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
- WHETHER OR NOT ADVISED OF THE POSSIBILITY OF DAMAGE, AND ON ANY THEORY OF
- LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE
- OF THIS SOFTWARE.
+IN NO EVENT SHALL PIXAR, SAM LEFFLER OR SILICON GRAPHICS BE LIABLE FOR
+ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND,
+OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+WHETHER OR NOT ADVISED OF THE POSSIBILITY OF DAMAGE, AND ON ANY THEORY OF
+LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE
+OF THIS SOFTWARE.
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
 646 HDF5 (Hierarchical Data Format 5) Software Library and Utilities files
 covered by:
 
-
+```
 HDF5 (Hierarchical Data Format 5) Software Library and Utilities
 Copyright (c) 2006-2018, The HDF Group.
 
@@ -1298,43 +1152,14 @@ of HDF5 and has separate copyright and license terms. See SZIP Compression
 in HDF Products (www.hdfgroup.org/doc_resource/SZIP/) for further details.
 
 -----------------------------------------------------------------------------
-
-
-============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
-
-
-25 files covered by:
-
-/* zlib.h -- interface of the 'zlib' general purpose compression library
-  version 1.1.4, March 11th, 2002
-
-  Copyright (C) 1995-2002 Jean-loup Gailly and Mark Adler
-
-  This software is provided 'as-is', without any express or implied
-  warranty.  In no event will the authors be held liable for any damages
-  arising from the use of this software.
-
-  Permission is granted to anyone to use this software for any purpose,
-  including commercial applications, and to alter it and redistribute it
-  freely, subject to the following restrictions:
-
-  1. The origin of this software must not be misrepresented; you must not
-     claim that you wrote the original software. If you use this software
-     in a product, an acknowledgment in the product documentation would be
-     appreciated but is not required.
-  2. Altered source versions must be plainly marked as such, and must not be
-     misrepresented as being the original software.
-  3. This notice may not be removed or altered from any source distribution.
-
-  Jean-loup Gailly        Mark Adler
-  jloup@gzip.org          madler@alumni.caltech.edu
-
+```
 
 ============== NEXT COPYRIGHT NOTICE AND LICENSE ENTRY ==============
 
 
 343 Eigen files covered by MPL2:
 
+```
 Mozilla Public License Version 2.0
 ==================================
 
@@ -1708,3 +1533,4 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
 
   This Source Code Form is "Incompatible With Secondary Licenses", as
   defined by the Mozilla Public License, v. 2.0.
+```
